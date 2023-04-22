@@ -57,7 +57,9 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+* 1 - Business requirement 1 - To meet the first business requirement, we need to preform exploratory data analysis (EDA) on the dataset and create visualizations that can help us understand the relationship between different house attributes and the sale price. We can use scatter plots, box plots, bar charts, and other types of visualizations to identify correlations between variables. We can use tools such as matplotlib, seaborn and pandas for data visualization.
+
+* 2 - Business requirement 2 - To meet the second business requirement, we need to use machine learning algorithms to train a model that can predict the sale price of a house based on its attributes. We can use regression algorithms such as linear regression, decision tree regression, or random forest regression to build a predictive model. We need to select appropriate features, cleaning and preprocessing the data, splitting it into training, test and validation sets and evaluating the preformance of the model.
 
 
 ## ML Business Case
