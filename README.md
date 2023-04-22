@@ -63,7 +63,35 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+* 1 - What are the business objectives? 
+    * The business objective of this project is to help the client maximize the sales price for their inherited properties in Ames, Iowa by building a machine learning model that can accurately predict the sale price of houses based on their attributes.
+
+* 2 - Is there any business objectives that can be answered with conventional data analysis? 
+    * Conventional data analysis could help the client understand the relationship between the different attributes of the houses and the sale price, but it would not be able to accurately predict the sale price of a given house.
+
+* 3 - Does the client need a dashboard or and API endpoint? 
+    * Dashboard in this case. 
+
+* 4 - What does the client consider as a successful project outcome? 
+    * The client considers the project a success if the machine learning model can accurately predict the sale price of houses in Ames, Iowa with a high degree of accuracy.
+
+* 5 - Can you break down the project into Epics and User stories?
+    * Yes, please see Epics and User Stories section: 
+
+* 6 - Ethical or privacy concerns?
+    * No, this dataset is public sourced from Kaggle and does not contain any sensitive information about the properties or the homeowners. 
+
+* 7 - Does he data suggest a paticular model? 
+    * Based on the size of the dataset and the nature of the problem, a regression model would be a suitable choice for this project. Specifically, a linear regression or a decision tree regression model could be used.
+
+* 8 - What are the models inputs and intended outputs? 
+    * The model inputs would be the different attributes of the houses, such as the size, age, number of bedrooms, number of bathrooms, presence of a garage, and overall quality rating. The model output would be the predicted sale price of the house.
+
+* 9 - What are the criteria for the performance goal of the predictions? 
+    * The performance of the model will be evaluated using metrics such as mean absolute error, mean squared error, and R-squared. The goal is to minimize the error and maximize the R-squared value to ensure the model is accurately predicting the sale price.
+
+* 10 - How will the client benefit?
+    * The client will benefit from this project by being able to accurately predict the sale price of their inherited properties and any other house in Ames, Iowa. This will help them make more informed decisions about pricing and marketing their properties, ultimately maximizing their sale price and profitability.
 
 
 ## Dashboard Design
