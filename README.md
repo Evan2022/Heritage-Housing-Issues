@@ -1,25 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-## Gitpod Template Instructions
-
-Welcome,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Gitpod Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Gitpod Template Instructions at least once, though! It contains some important information about Gitpod and the extensions we use. 
-
-## Gitpod Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace. 
 * The dataset has almost 1.5 thousand rows and represents housing records from Ames, Iowa, indicating house profile (Floor Area, Basement, Garage, Kitchen, Lot, Porch, Wood Deck, Year Built) and its respective sale price for houses built between 1872 and 2010.
@@ -65,7 +43,17 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
+* 1 - The size of the house in terms of square footage is positively correlated with the sale price. 
+    * Validation: We can create a scatter plot to visualize the relationship between the size of the house and the sale price. if the plot shows a clear trendline sloping upwards, we can conclude that there is positive correlation between the two variables. 
+
+* 2 - The age of the house is negatively correated with the sale price. 
+    * Validation: We can create a scatter plot to visualize the relationship between the age of the house and the sale price. If the plot shows a clear trendline sloping downwards, we can conclude that there is a negative correlation between the two variables. 
+
+* 3 - The presence of a garage is positively correlated with the sale price. 
+    * Validation: We can create a bar chart to compare the average sale price of houses with and without garages. If the chart shows that houses with garages have a higher average sale price, we can conclude that there is a positive correlation between the presence of a garage and the sale price. 
+
+* 4 - The overall quality of the house is positively correlated with the sale price. 
+    * Validation: We can create a box plot to compare the distribution of sale prices for houses with different overall quality ratings. if the plot shows that houses ith higher overall quality ratings tend to have higher sale prices, we can conclude that there is a positive correlation between the two variables.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
