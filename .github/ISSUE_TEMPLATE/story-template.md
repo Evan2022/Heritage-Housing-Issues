@@ -1,6 +1,6 @@
 ---
-name: User Story
-about: 'USER STORY: <TITLE>'
+name: Story Template
+about: Template for Heritage Housing Issues Project
 title: User Story
 labels: ''
 assignees: ''
