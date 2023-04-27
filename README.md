@@ -30,9 +30,6 @@
 |SalePrice|Sale Price|34900 - 755000|
 
 
-
-
-
 ## Business Requirements
 As a good friend, you are requested by your friend, who has received an inheritance from a deceased great-grandfather located in Ames, Iowa, to  help in maximising the sales price for the inherited properties.
 
